@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.example.testing_exercise.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 21.112 sec <<< FAILURE!
-User goes to cartaxcheck.co.uk to check car details #2(Checking car details)  Time elapsed: 5.754 sec  <<< FAILURE!
+Tests run: 24, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 51.306 sec <<< FAILURE!
+User goes to cartaxcheck.co.uk to check car details #2(Checking car details)  Time elapsed: 5.624 sec  <<< FAILURE!
 Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
 Element: '<dd class="jsx-3496807389"></dd>'
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619793733014.0.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619793733014.0.html
+Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.png
+Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.html
 Timeout: 5 s.
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
 	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
@@ -15,23 +15,14 @@ Timeout: 5 s.
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
 	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:80)
+	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
 	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:4)
 
-User compares car from input to output at the same index #1(Checking car details)  Time elapsed: 0.598 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:163)
-	at com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexIsTheSameInInputAndOutput(StepDefinitions.java:98)
-	at ?.user checks if the car 0 is the same in input and output(classpath:com/example/testing_exercise/car.feature:16)
-
-User compares car from input to output at the same index #2(Checking car details)  Time elapsed: 5.735 sec  <<< FAILURE!
+User checks car details against existing list #2(Checking car details)  Time elapsed: 5.676 sec  <<< FAILURE!
 Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
 Element: '<dd class="jsx-3496807389"></dd>'
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619793740936.1.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619793740936.1.html
+Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.png
+Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.html
 Timeout: 5 s.
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
 	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
@@ -40,24 +31,70 @@ Timeout: 5 s.
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
 	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:80)
+	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
 	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:15)
 
-User compares car from input to output at the same index #3(Checking car details)  Time elapsed: 0.757 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:163)
-	at com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexIsTheSameInInputAndOutput(StepDefinitions.java:98)
-	at ?.user checks if the car 2 is the same in input and output(classpath:com/example/testing_exercise/car.feature:16)
+User checks car details against existing list #6(Checking car details)  Time elapsed: 5.635 sec  <<< FAILURE!
+Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
+Element: '<dd class="jsx-3496807389"></dd>'
+Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.png
+Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.html
+Timeout: 5 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
+	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
+	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:26)
 
-User compares car from input to output at the same index #4(Checking car details)  Time elapsed: 2.767 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:163)
-	at com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexIsTheSameInInputAndOutput(StepDefinitions.java:98)
-	at ?.user checks if the car 3 is the same in input and output(classpath:com/example/testing_exercise/car.feature:16)
+User checks car details against existing list #10(Checking car details)  Time elapsed: 5.58 sec  <<< FAILURE!
+Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
+Element: '<dd class="jsx-3496807389"></dd>'
+Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.png
+Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.html
+Timeout: 5 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
+	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
+	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:37)
+
+User checks car details against existing list #14(Checking car details)  Time elapsed: 5.612 sec  <<< FAILURE!
+Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
+Element: '<dd class="jsx-3496807389"></dd>'
+Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.png
+Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.html
+Timeout: 5 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
+	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
+	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:48)
+
+User checks car details against existing list #18(Checking car details)  Time elapsed: 5.614 sec  <<< FAILURE!
+Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
+Element: '<dd class="jsx-3496807389"></dd>'
+Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.png
+Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.html
+Timeout: 5 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
+	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
+	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
+	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:59)
 

@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-30T14:46:03.913Z",
+        "start_timestamp": "2021-04-30T15:35:55.731Z",
         "before": [
           {
             "result": {
-              "duration": 69054100,
+              "duration": 69062400,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2952965000,
+              "duration": 2418188000,
               "status": "passed"
             },
             "line": 4,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 2001700,
+              "duration": 3001700,
               "status": "passed"
             },
             "line": 5,
@@ -61,11 +61,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T14:46:06.995Z",
+        "start_timestamp": "2021-04-30T15:35:58.279Z",
         "before": [
           {
             "result": {
-              "duration": 2000200,
+              "duration": 2002300,
               "status": "passed"
             },
             "match": {
@@ -82,8 +82,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619793972599.0.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619793972599.0.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy16.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:80)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:4)\r\n",
-              "duration": 5762041900,
+              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:4)\r\n",
+              "duration": 5608679800,
               "status": "failed"
             },
             "line": 4,
@@ -101,6 +101,7 @@
           },
           {
             "result": {
+              "duration": 1001200,
               "status": "skipped"
             },
             "line": 5,
@@ -119,11 +120,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T14:46:12.777Z",
+        "start_timestamp": "2021-04-30T15:36:03.903Z",
         "before": [
           {
             "result": {
-              "duration": 4003900,
+              "duration": 2001700,
               "status": "passed"
             },
             "match": {
@@ -140,7 +141,7 @@
         "steps": [
           {
             "result": {
-              "duration": 772731900,
+              "duration": 866787200,
               "status": "passed"
             },
             "line": 4,
@@ -158,6 +159,7 @@
           },
           {
             "result": {
+              "duration": 1001200,
               "status": "passed"
             },
             "line": 5,
@@ -176,11 +178,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T14:46:13.563Z",
+        "start_timestamp": "2021-04-30T15:36:04.779Z",
         "before": [
           {
             "result": {
-              "duration": 1001400,
+              "duration": 999100,
               "status": "passed"
             },
             "match": {
@@ -197,7 +199,7 @@
         "steps": [
           {
             "result": {
-              "duration": 594540000,
+              "duration": 770749500,
               "status": "passed"
             },
             "line": 4,
@@ -215,6 +217,7 @@
           },
           {
             "result": {
+              "duration": 1001200,
               "status": "passed"
             },
             "line": 5,
@@ -233,11 +236,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T14:46:14.164Z",
+        "start_timestamp": "2021-04-30T15:36:05.558Z",
         "before": [
           {
             "result": {
-              "duration": 1001200,
+              "duration": 1001900,
               "status": "passed"
             },
             "match": {
@@ -246,15 +249,15 @@
           }
         ],
         "line": 20,
-        "name": "User compares car from input to output at the same index",
+        "name": "User checks car details against existing list",
         "description": "",
-        "id": "checking-car-details;user-compares-car-from-input-to-output-at-the-same-index;;2",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;2",
         "type": "scenario",
         "keyword": "Scenario Template",
         "steps": [
           {
             "result": {
-              "duration": 593539400,
+              "duration": 1660507200,
               "status": "passed"
             },
             "line": 15,
@@ -272,31 +275,30 @@
           },
           {
             "result": {
-              "error_message": "org.opentest4j.AssertionFailedError: expected: \u003ctrue\u003e but was: \u003cfalse\u003e\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)\r\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)\r\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:163)\r\n\tat com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexIsTheSameInInputAndOutput(StepDefinitions.java:98)\r\n\tat ✽.user checks if the car 0 is the same in input and output(classpath:com/example/testing_exercise/car.feature:16)\r\n",
-              "duration": 2010700,
-              "status": "failed"
+              "duration": 1000800,
+              "status": "passed"
             },
             "line": 16,
-            "name": "user checks if the car 0 is the same in input and output",
+            "name": "user checks if car 0 has been repainted",
             "match": {
               "arguments": [
                 {
                   "val": "0",
-                  "offset": 23
+                  "offset": 19
                 }
               ],
-              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexIsTheSameInInputAndOutput(int)"
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexHasBeenRepainted(int)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-04-30T14:46:14.766Z",
+        "start_timestamp": "2021-04-30T15:36:07.226Z",
         "before": [
           {
             "result": {
-              "duration": 1000900,
+              "duration": 1001500,
               "status": "passed"
             },
             "match": {
@@ -305,16 +307,16 @@
           }
         ],
         "line": 21,
-        "name": "User compares car from input to output at the same index",
+        "name": "User checks car details against existing list",
         "description": "",
-        "id": "checking-car-details;user-compares-car-from-input-to-output-at-the-same-index;;3",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;3",
         "type": "scenario",
         "keyword": "Scenario Template",
         "steps": [
           {
             "result": {
-              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619793980285.1.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619793980285.1.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy16.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:80)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:15)\r\n",
-              "duration": 5637684000,
+              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:15)\r\n",
+              "duration": 5663128300,
               "status": "failed"
             },
             "line": 15,
@@ -335,26 +337,26 @@
               "status": "skipped"
             },
             "line": 16,
-            "name": "user checks if the car 1 is the same in input and output",
+            "name": "user checks if car 1 has been repainted",
             "match": {
               "arguments": [
                 {
                   "val": "1",
-                  "offset": 23
+                  "offset": 19
                 }
               ],
-              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexIsTheSameInInputAndOutput(int)"
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexHasBeenRepainted(int)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-04-30T14:46:20.411Z",
+        "start_timestamp": "2021-04-30T15:36:12.896Z",
         "before": [
           {
             "result": {
-              "duration": 2001500,
+              "duration": 1001100,
               "status": "passed"
             },
             "match": {
@@ -363,15 +365,15 @@
           }
         ],
         "line": 22,
-        "name": "User compares car from input to output at the same index",
+        "name": "User checks car details against existing list",
         "description": "",
-        "id": "checking-car-details;user-compares-car-from-input-to-output-at-the-same-index;;4",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;4",
         "type": "scenario",
         "keyword": "Scenario Template",
         "steps": [
           {
             "result": {
-              "duration": 615418300,
+              "duration": 850886900,
               "status": "passed"
             },
             "line": 15,
@@ -389,30 +391,29 @@
           },
           {
             "result": {
-              "error_message": "org.opentest4j.AssertionFailedError: expected: \u003ctrue\u003e but was: \u003cfalse\u003e\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)\r\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)\r\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:163)\r\n\tat com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexIsTheSameInInputAndOutput(StepDefinitions.java:98)\r\n\tat ✽.user checks if the car 2 is the same in input and output(classpath:com/example/testing_exercise/car.feature:16)\r\n",
-              "status": "failed"
+              "status": "passed"
             },
             "line": 16,
-            "name": "user checks if the car 2 is the same in input and output",
+            "name": "user checks if car 2 has been repainted",
             "match": {
               "arguments": [
                 {
                   "val": "2",
-                  "offset": 23
+                  "offset": 19
                 }
               ],
-              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexIsTheSameInInputAndOutput(int)"
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexHasBeenRepainted(int)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-04-30T14:46:21.033Z",
+        "start_timestamp": "2021-04-30T15:36:13.753Z",
         "before": [
           {
             "result": {
-              "duration": 1001000,
+              "duration": 1010500,
               "status": "passed"
             },
             "match": {
@@ -421,15 +422,15 @@
           }
         ],
         "line": 23,
-        "name": "User compares car from input to output at the same index",
+        "name": "User checks car details against existing list",
         "description": "",
-        "id": "checking-car-details;user-compares-car-from-input-to-output-at-the-same-index;;5",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;5",
         "type": "scenario",
         "keyword": "Scenario Template",
         "steps": [
           {
             "result": {
-              "duration": 627657200,
+              "duration": 747726000,
               "status": "passed"
             },
             "line": 15,
@@ -447,19 +448,929 @@
           },
           {
             "result": {
-              "error_message": "org.opentest4j.AssertionFailedError: expected: \u003ctrue\u003e but was: \u003cfalse\u003e\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)\r\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)\r\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:163)\r\n\tat com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexIsTheSameInInputAndOutput(StepDefinitions.java:98)\r\n\tat ✽.user checks if the car 3 is the same in input and output(classpath:com/example/testing_exercise/car.feature:16)\r\n",
-              "status": "failed"
+              "status": "passed"
             },
             "line": 16,
-            "name": "user checks if the car 3 is the same in input and output",
+            "name": "user checks if car 3 has been repainted",
             "match": {
               "arguments": [
                 {
                   "val": "3",
-                  "offset": 23
+                  "offset": 19
                 }
               ],
-              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexIsTheSameInInputAndOutput(int)"
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexHasBeenRepainted(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:14.506Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 591587200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user goes to the website and uses car 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user checks if car 0 make is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexMakeIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:15.103Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;3",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:26)\r\n",
+              "duration": 5628600700,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "user goes to the website and uses car 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user checks if car 1 make is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexMakeIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:20.736Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 695165700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user goes to the website and uses car 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user checks if car 2 make is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexMakeIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:21.437Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;5",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 608471100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user goes to the website and uses car 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user checks if car 3 make is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexMakeIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:22.049Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 653636700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user goes to the website and uses car 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user checks if car 0 model is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexModelIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:22.707Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;3",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:37)\r\n",
+              "duration": 5568793000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "user goes to the website and uses car 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "user checks if car 1 model is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexModelIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:28.282Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 614591300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user goes to the website and uses car 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user checks if car 2 model is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexModelIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:28.901Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2001900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;5",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 792074300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user goes to the website and uses car 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user checks if car 3 model is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexModelIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:29.698Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 819744700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user goes to the website and uses car 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user checks if car 0 colour is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexColourIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:30.522Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;3",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:48)\r\n",
+              "duration": 5604740500,
+              "status": "failed"
+            },
+            "line": 48,
+            "name": "user goes to the website and uses car 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "user checks if car 1 colour is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexColourIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:36.132Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1002300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 956351000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user goes to the website and uses car 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user checks if car 2 colour is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexColourIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:37.091Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;5",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 767708900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user goes to the website and uses car 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user checks if car 3 colour is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexColourIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:37.862Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;2",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 825956700,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user goes to the website and uses car 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 991100,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user checks if car 0 year is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:38.693Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;3",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:59)\r\n",
+              "duration": 5610269200,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "user goes to the website and uses car 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "user checks if car 1 year is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:44.308Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 599466800,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user goes to the website and uses car 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user checks if car 2 year is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T15:36:44.910Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;5",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 776288600,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user goes to the website and uses car 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user checks if car 3 year is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)"
             },
             "keyword": "Then "
           }

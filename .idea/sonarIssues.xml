@@ -3,6 +3,16 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/car_input.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -44,6 +54,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/target/surefire-reports/com.example.testing_exercise.RunCucumberTest.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/target/test-classes/com/example/testing_exercise/StepDefinitions.class">
           <value>
             <set />
           </value>
