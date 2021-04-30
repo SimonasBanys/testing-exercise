@@ -1,6 +1,8 @@
 package com.example.testing_exercise;
 
 import com.codeborne.selenide.Configuration;
+import com.example.testing_exercise.utils.Car;
+import com.example.testing_exercise.utils.MainPage;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="24" failures="6" name="com.example.testing_exercise.RunCucumberTest" time="50.054" errors="0" skipped="0">
+<testsuite tests="24" failures="0" name="com.example.testing_exercise.RunCucumberTest" time="0.409" errors="24" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="16+36-2231"/>
@@ -60,268 +60,608 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Checking car details" name="User goes to cartaxcheck.co.uk to check car details #1" time="2.647"/>
-  <testcase classname="Checking car details" name="User goes to cartaxcheck.co.uk to check car details #2" time="5.624">
-    <failure message="Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.html
-Timeout: 5 s." type="Element should not be empty">Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:4)
-</failure>
+  <testcase classname="Checking car details" name="User goes to cartaxcheck.co.uk to check car details #1" time="0.225">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User goes to cartaxcheck.co.uk to check car details &amp;#27;[90m# com/example/testing_exercise/car.feature:9&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m                         &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if the car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m&amp;#27;[36m exists in the list&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexExistsInTheList(int)&amp;#27;[0m
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</system-err>
+  </testcase>
+  <testcase classname="Checking car details" name="User goes to cartaxcheck.co.uk to check car details #2" time="0.012">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
     <system-out>
 Scenario Template: User goes to cartaxcheck.co.uk to check car details &amp;#27;[90m# com/example/testing_exercise/car.feature:10&amp;#27;[0m
-  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31muser goes to the website and uses car &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m1&amp;#27;[0m                         &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
-      &amp;#27;[31mElement should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at âœ½.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:4)
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 &amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m                         &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if the car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m exists in the list&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexExistsInTheList(int)&amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Checking car details" name="User goes to cartaxcheck.co.uk to check car details #3" time="0.874"/>
-  <testcase classname="Checking car details" name="User goes to cartaxcheck.co.uk to check car details #4" time="0.78"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #1" time="1.667"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #2" time="5.676">
-    <failure message="Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.html
-Timeout: 5 s." type="Element should not be empty">Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:15)
-</failure>
+  <testcase classname="Checking car details" name="User goes to cartaxcheck.co.uk to check car details #3" time="0.014">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User goes to cartaxcheck.co.uk to check car details &amp;#27;[90m# com/example/testing_exercise/car.feature:11&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m                         &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if the car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m exists in the list&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexExistsInTheList(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User goes to cartaxcheck.co.uk to check car details #4" time="0.01">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User goes to cartaxcheck.co.uk to check car details &amp;#27;[90m# com/example/testing_exercise/car.feature:12&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                         &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if the car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m&amp;#27;[36m exists in the list&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfTheCarIndexExistsInTheList(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #1" time="0.006">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:20&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m&amp;#27;[36m has been repainted&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexHasBeenRepainted(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #2" time="0.013">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
     <system-out>
 Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:21&amp;#27;[0m
-  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31muser goes to the website and uses car &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m1&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
-      &amp;#27;[31mElement should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at âœ½.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:15)
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 &amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m has been repainted&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexHasBeenRepainted(int)&amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Checking car details" name="User checks car details against existing list #3" time="0.851"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #4" time="0.753"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #5" time="0.597"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #6" time="5.635">
-    <failure message="Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.html
-Timeout: 5 s." type="Element should not be empty">Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:26)
-</failure>
+  <testcase classname="Checking car details" name="User checks car details against existing list #3" time="0.005">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:22&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m has been repainted&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexHasBeenRepainted(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #4" time="0.011">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:23&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m&amp;#27;[36m has been repainted&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexHasBeenRepainted(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #5" time="0.017">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:31&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m&amp;#27;[36m make is the same&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexMakeIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #6" time="0.005">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
     <system-out>
 Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:32&amp;#27;[0m
-  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31muser goes to the website and uses car &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m1&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
-      &amp;#27;[31mElement should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at âœ½.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:26)
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 &amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m make is the same&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexMakeIsTheSame(int)&amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Checking car details" name="User checks car details against existing list #7" time="0.698"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #8" time="0.611"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #9" time="0.659"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #10" time="5.58">
-    <failure message="Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.html
-Timeout: 5 s." type="Element should not be empty">Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:37)
-</failure>
+  <testcase classname="Checking car details" name="User checks car details against existing list #7" time="0.007">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:33&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m make is the same&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexMakeIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #8" time="0.004">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:34&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m&amp;#27;[36m make is the same&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexMakeIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #9" time="0.01">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:42&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m&amp;#27;[36m model is the same&amp;#27;[0m                    &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexModelIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #10" time="0.007">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
     <system-out>
 Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:43&amp;#27;[0m
-  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31muser goes to the website and uses car &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m1&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
-      &amp;#27;[31mElement should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at âœ½.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:37)
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 &amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m model is the same&amp;#27;[0m                    &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexModelIsTheSame(int)&amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Checking car details" name="User checks car details against existing list #11" time="0.614"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #12" time="0.797"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #13" time="0.824"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #14" time="5.612">
-    <failure message="Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.html
-Timeout: 5 s." type="Element should not be empty">Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:48)
-</failure>
+  <testcase classname="Checking car details" name="User checks car details against existing list #11" time="0.003">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:44&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m model is the same&amp;#27;[0m                    &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexModelIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #12" time="0.014">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:45&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m&amp;#27;[36m model is the same&amp;#27;[0m                    &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexModelIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #13" time="0.003">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:53&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m&amp;#27;[36m colour is the same&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexColourIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #14" time="0.006">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
     <system-out>
 Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:54&amp;#27;[0m
-  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31muser goes to the website and uses car &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m1&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
-      &amp;#27;[31mElement should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at âœ½.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:48)
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 &amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m colour is the same&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexColourIsTheSame(int)&amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Checking car details" name="User checks car details against existing list #15" time="0.957"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #16" time="0.771"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #17" time="0.833"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #18" time="5.614">
-    <failure message="Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.html
-Timeout: 5 s." type="Element should not be empty">Element should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:59)
-</failure>
+  <testcase classname="Checking car details" name="User checks car details against existing list #15" time="0.005">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:55&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m colour is the same&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexColourIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #16" time="0.01">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:56&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m&amp;#27;[36m colour is the same&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexColourIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #17" time="0.004">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:64&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m0&amp;#27;[0m&amp;#27;[36m year is the same&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #18" time="0.006">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
     <system-out>
 Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:65&amp;#27;[0m
-  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31muser goes to the website and uses car &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m1&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
-      &amp;#27;[31mElement should not be empty: attribute value=&quot;&quot; and exact text &apos;&apos; {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: &apos;&lt;dd class=&quot;jsx-3496807389&quot;&gt;&lt;/dd&gt;&apos;
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at âœ½.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:59)
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 &amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m year is the same&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)&amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Checking car details" name="User checks car details against existing list #19" time="0.6"/>
-  <testcase classname="Checking car details" name="User checks car details against existing list #20" time="0.78"/>
+  <testcase classname="Checking car details" name="User checks car details against existing list #19" time="0.009">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:66&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m year is the same&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Checking car details" name="User checks car details against existing list #20" time="0.003">
+    <error message="input\*.txt (The filename, directory name, or volume label syntax is incorrect)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+</error>
+    <system-out>
+Scenario Template: User checks car details against existing list &amp;#27;[90m# com/example/testing_exercise/car.feature:67&amp;#27;[0m
+      &amp;#27;[31mjava.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser goes to the website and uses car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                   &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser checks if car &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m&amp;#27;[36m year is the same&amp;#27;[0m                     &amp;#27;[90m# com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)&amp;#27;[0m
+</system-out>
+  </testcase>
 </testsuite>

@@ -3,12 +3,13 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-30T15:35:55.731Z",
+        "start_timestamp": "2021-04-30T15:50:16.258Z",
         "before": [
           {
             "result": {
-              "duration": 69062400,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 63067300,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -24,8 +25,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2418188000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 4,
             "name": "user goes to the website and uses car 0",
@@ -42,8 +43,7 @@
           },
           {
             "result": {
-              "duration": 3001700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user checks if the car 0 exists in the list",
@@ -61,12 +61,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:35:58.279Z",
+        "start_timestamp": "2021-04-30T15:50:16.384Z",
         "before": [
           {
             "result": {
-              "duration": 2002300,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 994300,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -82,9 +83,7 @@
         "steps": [
           {
             "result": {
-              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:4)\r\n",
-              "duration": 5608679800,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "user goes to the website and uses car 1",
@@ -101,7 +100,6 @@
           },
           {
             "result": {
-              "duration": 1001200,
               "status": "skipped"
             },
             "line": 5,
@@ -120,12 +118,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:03.903Z",
+        "start_timestamp": "2021-04-30T15:50:16.395Z",
         "before": [
           {
             "result": {
-              "duration": 2001700,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 1003000,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -141,8 +140,8 @@
         "steps": [
           {
             "result": {
-              "duration": 866787200,
-              "status": "passed"
+              "duration": 1001400,
+              "status": "skipped"
             },
             "line": 4,
             "name": "user goes to the website and uses car 2",
@@ -159,8 +158,7 @@
           },
           {
             "result": {
-              "duration": 1001200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user checks if the car 2 exists in the list",
@@ -178,12 +176,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:04.779Z",
+        "start_timestamp": "2021-04-30T15:50:16.407Z",
         "before": [
           {
             "result": {
-              "duration": 999100,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -199,8 +197,7 @@
         "steps": [
           {
             "result": {
-              "duration": 770749500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "user goes to the website and uses car 3",
@@ -217,8 +214,7 @@
           },
           {
             "result": {
-              "duration": 1001200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "user checks if the car 3 exists in the list",
@@ -236,12 +232,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:05.558Z",
+        "start_timestamp": "2021-04-30T15:50:16.416Z",
         "before": [
           {
             "result": {
-              "duration": 1001900,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 1000700,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -257,8 +254,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1660507200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "user goes to the website and uses car 0",
@@ -275,8 +271,7 @@
           },
           {
             "result": {
-              "duration": 1000800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "user checks if car 0 has been repainted",
@@ -294,12 +289,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:07.226Z",
+        "start_timestamp": "2021-04-30T15:50:16.423Z",
         "before": [
           {
             "result": {
-              "duration": 1001500,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -315,9 +310,7 @@
         "steps": [
           {
             "result": {
-              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:15)\r\n",
-              "duration": 5663128300,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "user goes to the website and uses car 1",
@@ -334,6 +327,7 @@
           },
           {
             "result": {
+              "duration": 1000800,
               "status": "skipped"
             },
             "line": 16,
@@ -352,12 +346,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:12.896Z",
+        "start_timestamp": "2021-04-30T15:50:16.431Z",
         "before": [
           {
             "result": {
-              "duration": 1001100,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -373,8 +367,7 @@
         "steps": [
           {
             "result": {
-              "duration": 850886900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "user goes to the website and uses car 2",
@@ -391,7 +384,7 @@
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "user checks if car 2 has been repainted",
@@ -409,12 +402,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:13.753Z",
+        "start_timestamp": "2021-04-30T15:50:16.441Z",
         "before": [
           {
             "result": {
-              "duration": 1010500,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -430,8 +423,7 @@
         "steps": [
           {
             "result": {
-              "duration": 747726000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "user goes to the website and uses car 3",
@@ -448,7 +440,8 @@
           },
           {
             "result": {
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 16,
             "name": "user checks if car 3 has been repainted",
@@ -466,12 +459,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:14.506Z",
+        "start_timestamp": "2021-04-30T15:50:16.454Z",
         "before": [
           {
             "result": {
-              "duration": 1001000,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 1000900,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -487,8 +481,8 @@
         "steps": [
           {
             "result": {
-              "duration": 591587200,
-              "status": "passed"
+              "duration": 1005300,
+              "status": "skipped"
             },
             "line": 26,
             "name": "user goes to the website and uses car 0",
@@ -505,7 +499,7 @@
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "user checks if car 0 make is the same",
@@ -523,12 +517,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:15.103Z",
+        "start_timestamp": "2021-04-30T15:50:16.462Z",
         "before": [
           {
             "result": {
-              "duration": 996600,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -544,9 +538,7 @@
         "steps": [
           {
             "result": {
-              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:26)\r\n",
-              "duration": 5628600700,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "user goes to the website and uses car 1",
@@ -581,12 +573,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:20.736Z",
+        "start_timestamp": "2021-04-30T15:50:16.469Z",
         "before": [
           {
             "result": {
-              "duration": 1001300,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -602,8 +594,7 @@
         "steps": [
           {
             "result": {
-              "duration": 695165700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "user goes to the website and uses car 2",
@@ -620,7 +611,7 @@
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "user checks if car 2 make is the same",
@@ -638,12 +629,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:21.437Z",
+        "start_timestamp": "2021-04-30T15:50:16.477Z",
         "before": [
           {
             "result": {
-              "duration": 999500,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 1000800,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -659,8 +651,7 @@
         "steps": [
           {
             "result": {
-              "duration": 608471100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "user goes to the website and uses car 3",
@@ -677,7 +668,7 @@
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "user checks if car 3 make is the same",
@@ -695,12 +686,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:22.049Z",
+        "start_timestamp": "2021-04-30T15:50:16.485Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -716,8 +707,7 @@
         "steps": [
           {
             "result": {
-              "duration": 653636700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "user goes to the website and uses car 0",
@@ -734,7 +724,7 @@
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 38,
             "name": "user checks if car 0 model is the same",
@@ -752,11 +742,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:22.707Z",
+        "start_timestamp": "2021-04-30T15:50:16.492Z",
         "before": [
           {
             "result": {
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 1000500,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -772,9 +764,7 @@
         "steps": [
           {
             "result": {
-              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:37)\r\n",
-              "duration": 5568793000,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "user goes to the website and uses car 1",
@@ -809,11 +799,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:28.282Z",
+        "start_timestamp": "2021-04-30T15:50:16.499Z",
         "before": [
           {
             "result": {
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -829,8 +820,7 @@
         "steps": [
           {
             "result": {
-              "duration": 614591300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "user goes to the website and uses car 2",
@@ -847,7 +837,7 @@
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 38,
             "name": "user checks if car 2 model is the same",
@@ -865,12 +855,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:28.901Z",
+        "start_timestamp": "2021-04-30T15:50:16.507Z",
         "before": [
           {
             "result": {
-              "duration": 2001900,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 983500,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -886,8 +877,7 @@
         "steps": [
           {
             "result": {
-              "duration": 792074300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "user goes to the website and uses car 3",
@@ -904,7 +894,7 @@
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 38,
             "name": "user checks if car 3 model is the same",
@@ -922,11 +912,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:29.698Z",
+        "start_timestamp": "2021-04-30T15:50:16.513Z",
         "before": [
           {
             "result": {
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -942,8 +933,7 @@
         "steps": [
           {
             "result": {
-              "duration": 819744700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 48,
             "name": "user goes to the website and uses car 0",
@@ -960,8 +950,7 @@
           },
           {
             "result": {
-              "duration": 1000900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 49,
             "name": "user checks if car 0 colour is the same",
@@ -979,11 +968,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:30.522Z",
+        "start_timestamp": "2021-04-30T15:50:16.520Z",
         "before": [
           {
             "result": {
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 2005800,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -999,9 +990,7 @@
         "steps": [
           {
             "result": {
-              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:48)\r\n",
-              "duration": 5604740500,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 48,
             "name": "user goes to the website and uses car 1",
@@ -1036,12 +1025,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:36.132Z",
+        "start_timestamp": "2021-04-30T15:50:16.529Z",
         "before": [
           {
             "result": {
-              "duration": 1002300,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1057,8 +1046,7 @@
         "steps": [
           {
             "result": {
-              "duration": 956351000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 48,
             "name": "user goes to the website and uses car 2",
@@ -1075,7 +1063,8 @@
           },
           {
             "result": {
-              "status": "passed"
+              "duration": 1002300,
+              "status": "skipped"
             },
             "line": 49,
             "name": "user checks if car 2 colour is the same",
@@ -1093,11 +1082,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:37.091Z",
+        "start_timestamp": "2021-04-30T15:50:16.536Z",
         "before": [
           {
             "result": {
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 999600,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1113,8 +1104,8 @@
         "steps": [
           {
             "result": {
-              "duration": 767708900,
-              "status": "passed"
+              "duration": 1002800,
+              "status": "skipped"
             },
             "line": 48,
             "name": "user goes to the website and uses car 3",
@@ -1131,7 +1122,7 @@
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 49,
             "name": "user checks if car 3 colour is the same",
@@ -1149,11 +1140,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:37.862Z",
+        "start_timestamp": "2021-04-30T15:50:16.542Z",
         "before": [
           {
             "result": {
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1169,8 +1161,7 @@
         "steps": [
           {
             "result": {
-              "duration": 825956700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 59,
             "name": "user goes to the website and uses car 0",
@@ -1187,8 +1178,7 @@
           },
           {
             "result": {
-              "duration": 991100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 60,
             "name": "user checks if car 0 year is the same",
@@ -1206,12 +1196,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:38.693Z",
+        "start_timestamp": "2021-04-30T15:50:16.549Z",
         "before": [
           {
             "result": {
-              "duration": 1000400,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 1001100,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1227,9 +1218,7 @@
         "steps": [
           {
             "result": {
-              "error_message": "Element should not be empty: attribute value\u003d\"\" and exact text \u0027\u0027 {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}\r\nElement: \u0027\u003cdd class\u003d\"jsx-3496807389\"\u003e\u003c/dd\u003e\u0027\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.html\r\nTimeout: 5 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:59)\r\n",
-              "duration": 5610269200,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 59,
             "name": "user goes to the website and uses car 1",
@@ -1264,12 +1253,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:44.308Z",
+        "start_timestamp": "2021-04-30T15:50:16.555Z",
         "before": [
           {
             "result": {
-              "duration": 1001100,
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 1001200,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1285,8 +1275,8 @@
         "steps": [
           {
             "result": {
-              "duration": 599466800,
-              "status": "passed"
+              "duration": 1000200,
+              "status": "skipped"
             },
             "line": 59,
             "name": "user goes to the website and uses car 2",
@@ -1303,7 +1293,7 @@
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 60,
             "name": "user checks if car 2 year is the same",
@@ -1321,11 +1311,13 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:36:44.910Z",
+        "start_timestamp": "2021-04-30T15:50:16.561Z",
         "before": [
           {
             "result": {
-              "status": "passed"
+              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
+              "duration": 1001000,
+              "status": "failed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1341,8 +1333,7 @@
         "steps": [
           {
             "result": {
-              "duration": 776288600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 59,
             "name": "user goes to the website and uses car 3",
@@ -1359,7 +1350,8 @@
           },
           {
             "result": {
-              "status": "passed"
+              "duration": 1000200,
+              "status": "skipped"
             },
             "line": 60,
             "name": "user checks if car 3 year is the same",

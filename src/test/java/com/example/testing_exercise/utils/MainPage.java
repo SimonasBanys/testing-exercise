@@ -1,4 +1,4 @@
-package com.example.testing_exercise;
+package com.example.testing_exercise.utils;
 
 import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Selenide.$x;

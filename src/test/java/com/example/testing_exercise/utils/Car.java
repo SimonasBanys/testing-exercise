@@ -1,4 +1,4 @@
-package com.example.testing_exercise;
+package com.example.testing_exercise.utils;
 
 import java.util.Objects;
 

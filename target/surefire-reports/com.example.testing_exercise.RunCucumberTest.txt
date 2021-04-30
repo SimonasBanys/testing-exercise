@@ -1,100 +1,244 @@
 -------------------------------------------------------------------------------
 Test set: com.example.testing_exercise.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 24, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 51.306 sec <<< FAILURE!
-User goes to cartaxcheck.co.uk to check car details #2(Checking car details)  Time elapsed: 5.624 sec  <<< FAILURE!
-Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: '<dd class="jsx-3496807389"></dd>'
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796963721.0.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:4)
+Tests run: 24, Failures: 0, Errors: 24, Skipped: 0, Time elapsed: 1.768 sec <<< FAILURE!
+User goes to cartaxcheck.co.uk to check car details #1(Checking car details)  Time elapsed: 0.225 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 
-User checks car details against existing list #2(Checking car details)  Time elapsed: 5.676 sec  <<< FAILURE!
-Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: '<dd class="jsx-3496807389"></dd>'
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796972738.1.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:15)
+User goes to cartaxcheck.co.uk to check car details #2(Checking car details)  Time elapsed: 0.012 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 
-User checks car details against existing list #6(Checking car details)  Time elapsed: 5.635 sec  <<< FAILURE!
-Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: '<dd class="jsx-3496807389"></dd>'
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796980584.2.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:26)
+User goes to cartaxcheck.co.uk to check car details #3(Checking car details)  Time elapsed: 0.014 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 
-User checks car details against existing list #10(Checking car details)  Time elapsed: 5.58 sec  <<< FAILURE!
-Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: '<dd class="jsx-3496807389"></dd>'
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796988119.3.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:37)
+User goes to cartaxcheck.co.uk to check car details #4(Checking car details)  Time elapsed: 0.01 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 
-User checks car details against existing list #14(Checking car details)  Time elapsed: 5.612 sec  <<< FAILURE!
-Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: '<dd class="jsx-3496807389"></dd>'
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619796995984.4.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:48)
+User checks car details against existing list #1(Checking car details)  Time elapsed: 0.006 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 
-User checks car details against existing list #18(Checking car details)  Time elapsed: 5.614 sec  <<< FAILURE!
-Element should not be empty: attribute value="" and exact text '' {By.xpath: /html/body/div/div/div[2]/div[4]/div[1]/div/span/div[2]/dl[2]/dd}
-Element: '<dd class="jsx-3496807389"></dd>'
-Screenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.png
-Page source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1619797004158.5.html
-Timeout: 5 s.
-	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
-	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
-	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
-	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
-	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)
-	at com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:105)
-	at ?.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:59)
+User checks car details against existing list #2(Checking car details)  Time elapsed: 0.013 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #3(Checking car details)  Time elapsed: 0.005 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #4(Checking car details)  Time elapsed: 0.011 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #5(Checking car details)  Time elapsed: 0.017 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #6(Checking car details)  Time elapsed: 0.005 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #7(Checking car details)  Time elapsed: 0.007 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #8(Checking car details)  Time elapsed: 0.004 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #9(Checking car details)  Time elapsed: 0.01 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #10(Checking car details)  Time elapsed: 0.007 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #11(Checking car details)  Time elapsed: 0.003 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #12(Checking car details)  Time elapsed: 0.014 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #13(Checking car details)  Time elapsed: 0.003 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #14(Checking car details)  Time elapsed: 0.006 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #15(Checking car details)  Time elapsed: 0.005 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #16(Checking car details)  Time elapsed: 0.01 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #17(Checking car details)  Time elapsed: 0.004 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #18(Checking car details)  Time elapsed: 0.006 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #19(Checking car details)  Time elapsed: 0.009 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
+
+User checks car details against existing list #20(Checking car details)  Time elapsed: 0.003 sec  <<< ERROR!
+java.io.FileNotFoundException: input\*.txt (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)
+	at com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)
 
