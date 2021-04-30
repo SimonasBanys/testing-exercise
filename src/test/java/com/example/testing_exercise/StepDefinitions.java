@@ -2,7 +2,6 @@ package com.example.testing_exercise;
 
 import com.codeborne.selenide.Configuration;
 import io.cucumber.java.Before;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import java.io.FileReader;
@@ -19,8 +18,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class StepDefinitions {
     MainPage mainPage = new MainPage();
-    static ArrayList<Car> carsInput = new ArrayList<>();
-    static ArrayList<Car> carsCheck = new ArrayList<>();
+    ArrayList<Car> carsInput = new ArrayList<>();
+    ArrayList<Car> carsOutput = new ArrayList<>();
 
 
     /*
@@ -42,14 +41,13 @@ public class StepDefinitions {
         getCompare(compareRead,toLookFor);
     }
 
-
     /*
      *  Method created for re-usability between car_input.txt and car_output.txt reading.
      *
      * @param fileName  the name of the file to be read
      * @return produces the read file in a string format.
      */
-    static String readFile(String fileName) throws IOException{
+    String readFile(String fileName) throws IOException{
         FileReader reader = new FileReader(fileName);
         int data;
         String readerInput = "";
@@ -60,7 +58,6 @@ public class StepDefinitions {
         return readerInput;
     }
 
-
     /*
      *  This method would allow re-usability for different formats of registration numbers
      *  A given text input
@@ -69,7 +66,7 @@ public class StepDefinitions {
      *
      * by providing different types of formats this would allow any standard licence plates to be discovered.
      */
-    static String[] getAllPlates(String input, String regex){
+    String[] getAllPlates(String input, String regex){
         String[] matches = Pattern.compile(regex)
                 .matcher(input.toUpperCase())
                 .results()
@@ -81,17 +78,16 @@ public class StepDefinitions {
         return matches;
     }
 
-
     /*
         An assumption here was made that all vehicles will be defined in the same format regardless of the amount or future files
         {registration number, make, model, colour, year}
      */
-    static void getCompare(String in, String regex){
+    void getCompare(String in, String regex){
         String[] vehicles = in.split("\\r?\\n");
         String[] vehicleDetails;
         for (int i = 1; i < vehicles.length; i++){
             vehicleDetails = vehicles[i].split(",");
-            carsCheck.add(new Car(vehicleDetails[0], vehicleDetails[1], vehicleDetails[2],vehicleDetails[3],
+            carsOutput.add(new Car(vehicleDetails[0], vehicleDetails[1], vehicleDetails[2],vehicleDetails[3],
                     (int)Double.parseDouble(vehicleDetails[4])));
         }
     }
@@ -115,12 +111,12 @@ public class StepDefinitions {
 
     @Then("user checks if the car {int} exists in the list")
     public void userChecksIfTheCarIndexExistsInTheList(int index) {
-        assertTrue(carsCheck.contains(carsInput.get(index)));
+        assertTrue(carsOutput.contains(carsInput.get(index)));
     }
 
     @Then("user checks if car {int} has been repainted")
     public void userChecksIfCarIndexHasBeenRepainted(int index) {
-        for (Car c : carsCheck){
+        for (Car c : carsOutput){
             if (c.getRegistration().equals(carsInput.get(index).getRegistration())){
                 assertEquals(c.getColour(),carsInput.get(index).getColour());
             }
@@ -129,7 +125,7 @@ public class StepDefinitions {
 
     @Then("user checks if car {int} make is the same")
     public void userChecksIfCarIndexMakeIsTheSame(int index) {
-        for (Car c : carsCheck){
+        for (Car c : carsOutput){
             if (c.getRegistration().equals(carsInput.get(index).getRegistration())){
                 assertEquals(c.getMake(),carsInput.get(index).getMake());
             }
@@ -138,7 +134,7 @@ public class StepDefinitions {
 
     @Then("user checks if car {int} model is the same")
     public void userChecksIfCarIndexModelIsTheSame(int index) {
-        for (Car c : carsCheck){
+        for (Car c : carsOutput){
             if (c.getRegistration().equals(carsInput.get(index).getRegistration())){
                 assertEquals(c.getModel(),carsInput.get(index).getModel());
             }
@@ -147,7 +143,7 @@ public class StepDefinitions {
 
     @Then("user checks if car {int} colour is the same")
     public void userChecksIfCarIndexColourIsTheSame(int index) {
-        for (Car c : carsCheck){
+        for (Car c : carsOutput){
             if (c.getRegistration().equals(carsInput.get(index).getRegistration())){
                 assertEquals(c.getColour(),carsInput.get(index).getColour());
             }
@@ -156,7 +152,7 @@ public class StepDefinitions {
 
     @Then("user checks if car {int} year is the same")
     public void userChecksIfCarIndexYearIsTheSame(int index) {
-        for (Car c : carsCheck){
+        for (Car c : carsOutput){
             if (c.getRegistration().equals(carsInput.get(index).getRegistration())){
                 assertEquals(c.getYear(),carsInput.get(index).getYear());
             }
