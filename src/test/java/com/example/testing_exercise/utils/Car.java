@@ -10,7 +10,7 @@ public class Car {
     private String colour;
     private int year;
 
-    Car(){
+    public Car(){
         this.registration = "";
         this.make = "";
         this.model = "";
@@ -18,7 +18,7 @@ public class Car {
         this.year = 0;
     }
 
-    Car(String reg){
+    public Car(String reg){
         this.registration = reg;
         this.make = "";
         this.model = "";
@@ -26,7 +26,7 @@ public class Car {
         this.year = 0;
     }
 
-    Car(String reg, String make, String model, String colour, int year){
+    public Car(String reg, String make, String model, String colour, int year){
         this.registration = reg;
         this.year = year;
         this.colour = colour;

@@ -3,13 +3,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-30T15:50:16.258Z",
+        "start_timestamp": "2021-05-04T11:35:26.486Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 63067300,
-              "status": "failed"
+              "duration": 73244900,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -25,8 +24,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 2560690000,
+              "status": "passed"
             },
             "line": 4,
             "name": "user goes to the website and uses car 0",
@@ -43,7 +42,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2929500,
+              "status": "passed"
             },
             "line": 5,
             "name": "user checks if the car 0 exists in the list",
@@ -61,13 +61,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.384Z",
+        "start_timestamp": "2021-05-04T11:35:29.180Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 994300,
-              "status": "failed"
+              "duration": 1953200,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -83,7 +82,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "Element should not be visible {By.xpath: /html/body/div/div/div[2]/div[11]}\r\nElement: \u0027\u003cdiv class\u003d\"jsx-1488133405 m-w-1 d-w-1 p-w-1\"\u003eLooking for Parts \u0026 Accessories?\nFind parts \u0026 accessories for this vehicle available for sale on Amazon.\nShop Now\u003c/div\u003e\u0027\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128144583.0.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128144583.0.html\r\nTimeout: 15 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:102)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:4)\r\n",
+              "duration": 15545530600,
+              "status": "failed"
             },
             "line": 4,
             "name": "user goes to the website and uses car 1",
@@ -118,13 +119,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.395Z",
+        "start_timestamp": "2021-05-04T11:35:44.741Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 1003000,
-              "status": "failed"
+              "duration": 1954200,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -140,8 +140,9 @@
         "steps": [
           {
             "result": {
-              "duration": 1001400,
-              "status": "skipped"
+              "error_message": "Element should not be visible {By.xpath: /html/body/div/div/div[2]/div[11]}\r\nElement: \u0027\u003cdiv class\u003d\"jsx-1488133405 m-w-1 d-w-3 p-w-1\"\u003eTests Passed\n1\nPassed w/Advisory\n0\nTests Failed\n0\nPass Rate\n100%\nTotal item(s) advised\n0\nTotal item(s) failed\n0\nShowing a summary of 1 MOT tests for KT17DLX.\nShow Full MOT History\u003c/div\u003e\u0027\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128160179.1.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128160179.1.html\r\nTimeout: 15 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:102)\r\n\tat ✽.user goes to the website and uses car 2(classpath:com/example/testing_exercise/car.feature:4)\r\n",
+              "duration": 15553761500,
+              "status": "failed"
             },
             "line": 4,
             "name": "user goes to the website and uses car 2",
@@ -176,12 +177,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.407Z",
+        "start_timestamp": "2021-05-04T11:36:00.307Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 976400,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -197,7 +198,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 687520200,
+              "status": "passed"
             },
             "line": 4,
             "name": "user goes to the website and uses car 3",
@@ -214,7 +216,7 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 5,
             "name": "user checks if the car 3 exists in the list",
@@ -232,13 +234,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.416Z",
+        "start_timestamp": "2021-05-04T11:36:01.000Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 1000700,
-              "status": "failed"
+              "duration": 976300,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -254,7 +255,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "Element should not be visible {By.xpath: /html/body/div/div/div[2]/div[11]}\r\nElement: \u0027\u003cdiv class\u003d\"jsx-1488133405 m-w-1 d-w-3 p-w-1\"\u003eTests Passed\n2\nPassed w/Advisory\n7\nTests Failed\n3\nPass Rate\n75%\nTotal item(s) advised\n36\nTotal item(s) failed\n4\nShowing a summary of 12 MOT tests for DN09HRM.\nShow Full MOT History\u003c/div\u003e\u0027\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128176317.2.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128176317.2.html\r\nTimeout: 15 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:102)\r\n\tat ✽.user goes to the website and uses car 0(classpath:com/example/testing_exercise/car.feature:15)\r\n",
+              "duration": 15412848700,
+              "status": "failed"
             },
             "line": 15,
             "name": "user goes to the website and uses car 0",
@@ -289,12 +292,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.423Z",
+        "start_timestamp": "2021-05-04T11:36:16.419Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 1954300,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -310,7 +313,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "Element should not be visible {By.xpath: /html/body/div/div/div[2]/div[11]}\r\nElement: \u0027\u003cdiv class\u003d\"jsx-1488133405 m-w-1 d-w-1 p-w-1\"\u003eLooking for Parts \u0026 Accessories?\nFind parts \u0026 accessories for this vehicle available for sale on Amazon.\nShop Now\u003c/div\u003e\u0027\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128191803.3.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128191803.3.html\r\nTimeout: 15 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:102)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:15)\r\n",
+              "duration": 15512549800,
+              "status": "failed"
             },
             "line": 15,
             "name": "user goes to the website and uses car 1",
@@ -327,7 +332,6 @@
           },
           {
             "result": {
-              "duration": 1000800,
               "status": "skipped"
             },
             "line": 16,
@@ -346,12 +350,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.431Z",
+        "start_timestamp": "2021-05-04T11:36:31.937Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 976300,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -367,7 +371,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "Element should not be visible {By.xpath: /html/body/div/div/div[2]/div[11]}\r\nElement: \u0027\u003cdiv class\u003d\"jsx-1488133405 m-w-1 d-w-3 p-w-1\"\u003eTests Passed\n1\nPassed w/Advisory\n0\nTests Failed\n0\nPass Rate\n100%\nTotal item(s) advised\n0\nTotal item(s) failed\n0\nShowing a summary of 1 MOT tests for KT17DLX.\nShow Full MOT History\u003c/div\u003e\u0027\r\nActual value: visible:true\r\nScreenshot: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128207239.4.png\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128207239.4.html\r\nTimeout: 15 s.\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)\r\n\tat com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.shouldNotBe(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:102)\r\n\tat ✽.user goes to the website and uses car 2(classpath:com/example/testing_exercise/car.feature:15)\r\n",
+              "duration": 15405083700,
+              "status": "failed"
             },
             "line": 15,
             "name": "user goes to the website and uses car 2",
@@ -402,12 +408,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.441Z",
+        "start_timestamp": "2021-05-04T11:36:47.349Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 976300,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -423,7 +429,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "Element not found {By.xpath: /html/body/div/div/div[2]/div/div/div/div/form/div[1]/input}\r\nExpected: visible or transparent: visible or have css value opacity\u003d0\r\nPage source: file:/C:/Users/simon/IdeaProjects/testing-exercise/build/reports/tests/1620128219661.5.html\r\nTimeout: 4 s.\r\nCaused by: WebDriverException: chrome not reachable\r\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)\r\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:136)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)\r\n\tat com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)\r\n\tat com.codeborne.selenide.commands.SetValue.execute(SetValue.java:36)\r\n\tat com.codeborne.selenide.commands.SetValue.execute(SetValue.java:17)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.setValue(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:100)\r\n\tat ✽.user goes to the website and uses car 3(classpath:com/example/testing_exercise/car.feature:15)\r\nCaused by: org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c12600e6751268466790e2f6e9f5dbf4\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div/div/div[2]/div/div/div/div/form/div[1]/input}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:59)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:34)\r\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:104)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)\r\n\tat com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:139)\r\n\tat com.codeborne.selenide.commands.SetValue.execute(SetValue.java:36)\r\n\tat com.codeborne.selenide.commands.SetValue.execute(SetValue.java:17)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:155)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy15.setValue(Unknown Source)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:100)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
+              "duration": 36344539100,
+              "status": "failed"
             },
             "line": 15,
             "name": "user goes to the website and uses car 3",
@@ -440,7 +448,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "skipped"
             },
             "line": 16,
@@ -459,13 +466,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.454Z",
+        "start_timestamp": "2021-05-04T11:37:23.703Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 1000900,
-              "status": "failed"
+              "duration": 967600,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -481,8 +487,9 @@
         "steps": [
           {
             "result": {
-              "duration": 1005300,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 0(classpath:com/example/testing_exercise/car.feature:26)\r\n",
+              "duration": 12016185500,
+              "status": "failed"
             },
             "line": 26,
             "name": "user goes to the website and uses car 0",
@@ -517,12 +524,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.462Z",
+        "start_timestamp": "2021-05-04T11:37:35.725Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 973000,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -538,7 +545,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:26)\r\n",
+              "duration": 12013893900,
+              "status": "failed"
             },
             "line": 26,
             "name": "user goes to the website and uses car 1",
@@ -573,12 +582,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.469Z",
+        "start_timestamp": "2021-05-04T11:37:47.745Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 978000,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -594,7 +603,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 2(classpath:com/example/testing_exercise/car.feature:26)\r\n",
+              "duration": 12012032400,
+              "status": "failed"
             },
             "line": 26,
             "name": "user goes to the website and uses car 2",
@@ -629,13 +640,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.477Z",
+        "start_timestamp": "2021-05-04T11:37:59.763Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 1000800,
-              "status": "failed"
+              "duration": 976400,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -651,7 +661,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 3(classpath:com/example/testing_exercise/car.feature:26)\r\n",
+              "duration": 12019534900,
+              "status": "failed"
             },
             "line": 26,
             "name": "user goes to the website and uses car 3",
@@ -686,12 +698,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.485Z",
+        "start_timestamp": "2021-05-04T11:38:11.787Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 976700,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -707,7 +719,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 0(classpath:com/example/testing_exercise/car.feature:37)\r\n",
+              "duration": 12012378200,
+              "status": "failed"
             },
             "line": 37,
             "name": "user goes to the website and uses car 0",
@@ -742,13 +756,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.492Z",
+        "start_timestamp": "2021-05-04T11:38:23.806Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 1000500,
-              "status": "failed"
+              "duration": 977000,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -764,7 +777,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:37)\r\n",
+              "duration": 12025082900,
+              "status": "failed"
             },
             "line": 37,
             "name": "user goes to the website and uses car 1",
@@ -799,12 +814,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.499Z",
+        "start_timestamp": "2021-05-04T11:38:35.836Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 976800,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -820,7 +835,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 2(classpath:com/example/testing_exercise/car.feature:37)\r\n",
+              "duration": 12012713800,
+              "status": "failed"
             },
             "line": 37,
             "name": "user goes to the website and uses car 2",
@@ -855,13 +872,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.507Z",
+        "start_timestamp": "2021-05-04T11:38:47.853Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 983500,
-              "status": "failed"
+              "duration": 978200,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -877,7 +893,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 3(classpath:com/example/testing_exercise/car.feature:37)\r\n",
+              "duration": 12018739000,
+              "status": "failed"
             },
             "line": 37,
             "name": "user goes to the website and uses car 3",
@@ -912,12 +930,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.513Z",
+        "start_timestamp": "2021-05-04T11:38:59.878Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 1001600,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -933,7 +951,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 0(classpath:com/example/testing_exercise/car.feature:48)\r\n",
+              "duration": 12010873600,
+              "status": "failed"
             },
             "line": 48,
             "name": "user goes to the website and uses car 0",
@@ -968,13 +988,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.520Z",
+        "start_timestamp": "2021-05-04T11:39:11.893Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 2005800,
-              "status": "failed"
+              "duration": 975400,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -990,7 +1009,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:48)\r\n",
+              "duration": 12015780100,
+              "status": "failed"
             },
             "line": 48,
             "name": "user goes to the website and uses car 1",
@@ -1025,12 +1046,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.529Z",
+        "start_timestamp": "2021-05-04T11:39:23.915Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 977300,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1046,7 +1067,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 2(classpath:com/example/testing_exercise/car.feature:48)\r\n",
+              "duration": 12012795800,
+              "status": "failed"
             },
             "line": 48,
             "name": "user goes to the website and uses car 2",
@@ -1063,7 +1086,6 @@
           },
           {
             "result": {
-              "duration": 1002300,
               "status": "skipped"
             },
             "line": 49,
@@ -1082,13 +1104,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.536Z",
+        "start_timestamp": "2021-05-04T11:39:35.932Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 999600,
-              "status": "failed"
+              "duration": 979800,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1104,8 +1125,9 @@
         "steps": [
           {
             "result": {
-              "duration": 1002800,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 3(classpath:com/example/testing_exercise/car.feature:48)\r\n",
+              "duration": 12012689400,
+              "status": "failed"
             },
             "line": 48,
             "name": "user goes to the website and uses car 3",
@@ -1122,6 +1144,7 @@
           },
           {
             "result": {
+              "duration": 985700,
               "status": "skipped"
             },
             "line": 49,
@@ -1140,12 +1163,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.542Z",
+        "start_timestamp": "2021-05-04T11:39:47.949Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "status": "failed"
+              "duration": 967000,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1161,7 +1184,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 0(classpath:com/example/testing_exercise/car.feature:59)\r\n",
+              "duration": 12016624600,
+              "status": "failed"
             },
             "line": 59,
             "name": "user goes to the website and uses car 0",
@@ -1196,13 +1221,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.549Z",
+        "start_timestamp": "2021-05-04T11:39:59.971Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 1001100,
-              "status": "failed"
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1218,7 +1241,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:59)\r\n",
+              "duration": 12027136600,
+              "status": "failed"
             },
             "line": 59,
             "name": "user goes to the website and uses car 1",
@@ -1253,13 +1278,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.555Z",
+        "start_timestamp": "2021-05-04T11:40:12.002Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 1001200,
-              "status": "failed"
+              "duration": 968400,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1275,8 +1299,9 @@
         "steps": [
           {
             "result": {
-              "duration": 1000200,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 2(classpath:com/example/testing_exercise/car.feature:59)\r\n",
+              "duration": 12012030700,
+              "status": "failed"
             },
             "line": 59,
             "name": "user goes to the website and uses car 2",
@@ -1311,13 +1336,12 @@
         ]
       },
       {
-        "start_timestamp": "2021-04-30T15:50:16.561Z",
+        "start_timestamp": "2021-05-04T11:40:24.018Z",
         "before": [
           {
             "result": {
-              "error_message": "java.io.FileNotFoundException: input\\*.txt (The filename, directory name, or volume label syntax is incorrect)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat java.base/java.io.FileReader.\u003cinit\u003e(FileReader.java:60)\r\n\tat com.example.testing_exercise.StepDefinitions.readFile(StepDefinitions.java:51)\r\n\tat com.example.testing_exercise.StepDefinitions.setUpAll(StepDefinitions.java:34)\r\n",
-              "duration": 1001000,
-              "status": "failed"
+              "duration": 985700,
+              "status": "passed"
             },
             "match": {
               "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
@@ -1333,7 +1357,9 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c12600e6751268466790e2f6e9f5dbf4\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 3(classpath:com/example/testing_exercise/car.feature:59)\r\n",
+              "duration": 12018759100,
+              "status": "failed"
             },
             "line": 59,
             "name": "user goes to the website and uses car 3",
@@ -1350,7 +1376,166 @@
           },
           {
             "result": {
-              "duration": 1000200,
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "user checks if car 3 year is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking car details",
+    "description": "",
+    "id": "checking-car-details",
+    "keyword": "Feature",
+    "uri": "classpath:com/example/testing_exercise/car.feature",
+    "tags": []
+  }
+]onseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 1(classpath:com/example/testing_exercise/car.feature:59)\r\n",
+              "duration": 12009758600,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "user goes to the website and uses car 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "user checks if car 1 year is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-04T11:39:20.875Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;4",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: aa513e01dec17734b09de23182735aab\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 2(classpath:com/example/testing_exercise/car.feature:59)\r\n",
+              "duration": 12011937600,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "user goes to the website and uses car 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "user checks if car 2 year is the same",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userChecksIfCarIndexYearIsTheSame(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-04T11:39:32.891Z",
+        "before": [
+          {
+            "result": {
+              "duration": 978100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.testing_exercise.StepDefinitions.setUpAll()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "User checks car details against existing list",
+        "description": "",
+        "id": "checking-car-details;user-checks-car-details-against-existing-list;;5",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d90.0.4430.93)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H148OUL\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://cartaxcheck.co.uk/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\simon\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: aa513e01dec17734b09de23182735aab\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.codeborne.selenide.drivercommands.BrowserHealthChecker.isBrowserStillOpen(BrowserHealthChecker.java:18)\r\n\tat com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:132)\r\n\tat com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:105)\r\n\tat com.codeborne.selenide.impl.StaticDriver.getAndCheckWebDriver(StaticDriver.java:65)\r\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:191)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.lambda$navigateTo$0(Navigator.java:68)\r\n\tat com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:139)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:66)\r\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)\r\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:86)\r\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:49)\r\n\tat com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(StepDefinitions.java:99)\r\n\tat ✽.user goes to the website and uses car 3(classpath:com/example/testing_exercise/car.feature:59)\r\n",
+              "duration": 12012038200,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "user goes to the website and uses car 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.testing_exercise.StepDefinitions.userGoesToTheWebsiteAndUsesCarIndex(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 968600,
               "status": "skipped"
             },
             "line": 60,
