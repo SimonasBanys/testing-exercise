@@ -11,16 +11,16 @@ Feature: Checking car details
       | 2   |
       | 3   |
 
-    Scenario Template: User checks car details against existing list
-      When user goes to the website and uses car <index>
-      Then user checks if car <index> has been repainted
+  Scenario Template: User checks car details against existing list
+    When user goes to the website and uses car <index>
+    Then user checks if car <index> has been repainted
 
-      Examples:
-        | index |
-        | 0   |
-        | 1   |
-        | 2   |
-        | 3   |
+    Examples:
+      | index |
+      | 0   |
+      | 1   |
+      | 2   |
+      | 3   |
 
   Scenario Template: User checks car details against existing list
     When user goes to the website and uses car <index>

@@ -13,7 +13,6 @@ import java.util.ArrayList;
 import java.util.regex.MatchResult;
 import java.util.regex.Pattern;
 import static com.codeborne.selenide.Condition.empty;
-import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -22,7 +21,6 @@ public class StepDefinitions {
     MainPage mainPage = new MainPage();
     ArrayList<Car> carsInput = new ArrayList<>();
     ArrayList<Car> carsOutput = new ArrayList<>();
-
 
     /*
      *  A setup method to be used before all the tests
@@ -96,12 +94,16 @@ public class StepDefinitions {
 
     }
 
+
+    /*
+        at this point can be better optimised.
+     */
     @When("user goes to the website and uses car {int}")
     public void userGoesToTheWebsiteAndUsesCarIndex(int index) {
         open("https://cartaxcheck.co.uk/");
         mainPage.regEntry.setValue(carsInput.get(index).getRegistration());
         mainPage.searchButton.click();
-        if (mainPage.sale.isDisplayed()){
+        if (!mainPage.sale.isDisplayed()){
             mainPage.vehicleMake.shouldNotBe(empty, Duration.ofSeconds(5));
             carsInput.get(index).setMake(mainPage.vehicleMake.getText());
             mainPage.vehicleModel.shouldNotBe(empty, Duration.ofSeconds(5));
