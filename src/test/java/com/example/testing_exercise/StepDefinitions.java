@@ -78,6 +78,7 @@ public class StepDefinitions {
             matches[i] = matches[i].replace(" ","");
         }
         return matches;
+
     }
 
     /*
@@ -92,6 +93,7 @@ public class StepDefinitions {
             carsOutput.add(new Car(vehicleDetails[0], vehicleDetails[1], vehicleDetails[2],vehicleDetails[3],
                     (int)Double.parseDouble(vehicleDetails[4])));
         }
+
     }
 
     @When("user goes to the website and uses car {int}")
@@ -99,15 +101,25 @@ public class StepDefinitions {
         open("https://cartaxcheck.co.uk/");
         mainPage.regEntry.setValue(carsInput.get(index).getRegistration());
         mainPage.searchButton.click();
-        mainPage.error.shouldNotBe(visible, Duration.ofSeconds(15));
-        mainPage.vehicleMake.shouldNotBe(empty, Duration.ofSeconds(5));
-        carsInput.get(index).setMake(mainPage.vehicleMake.getText());
-        mainPage.vehicleModel.shouldNotBe(empty, Duration.ofSeconds(5));
-        carsInput.get(index).setModel(mainPage.vehicleModel.getText());
-        mainPage.vehicleColour.shouldNotBe(empty, Duration.ofSeconds(5));
-        carsInput.get(index).setColour(mainPage.vehicleColour.getText());
-        mainPage.vehicleYear.shouldNotBe(empty, Duration.ofSeconds(5));
-        carsInput.get(index).setYear(Integer.parseInt(mainPage.vehicleYear.getText()));
+        if (mainPage.sale.isDisplayed()){
+            mainPage.vehicleMake.shouldNotBe(empty, Duration.ofSeconds(5));
+            carsInput.get(index).setMake(mainPage.vehicleMake.getText());
+            mainPage.vehicleModel.shouldNotBe(empty, Duration.ofSeconds(5));
+            carsInput.get(index).setModel(mainPage.vehicleModel.getText());
+            mainPage.vehicleColour.shouldNotBe(empty, Duration.ofSeconds(5));
+            carsInput.get(index).setColour(mainPage.vehicleColour.getText());
+            mainPage.vehicleYear.shouldNotBe(empty, Duration.ofSeconds(5));
+            carsInput.get(index).setYear(Integer.parseInt(mainPage.vehicleYear.getText()));
+        } else {
+            mainPage.vehicleMakeSale.shouldNotBe(empty, Duration.ofSeconds(5));
+            carsInput.get(index).setMake(mainPage.vehicleMakeSale.getText());
+            mainPage.vehicleModelSale.shouldNotBe(empty, Duration.ofSeconds(5));
+            carsInput.get(index).setModel(mainPage.vehicleModelSale.getText());
+            mainPage.vehicleColourSale.shouldNotBe(empty, Duration.ofSeconds(5));
+            carsInput.get(index).setColour(mainPage.vehicleColourSale.getText());
+            mainPage.vehicleYearSale.shouldNotBe(empty, Duration.ofSeconds(5));
+            carsInput.get(index).setYear(Integer.parseInt(mainPage.vehicleYearSale.getText()));
+        }
         System.out.println(carsInput.get(index).getMake());
     }
 

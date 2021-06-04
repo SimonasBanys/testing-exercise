@@ -6,11 +6,15 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$x;
 
 public class MainPage {
-    public SelenideElement searchButton = $x("/html/body/div/div/div[2]/div/div/div/div/form/button");
-    public SelenideElement regEntry = $x("/html/body/div/div/div[2]/div/div/div/div/form/div[1]/input");
-    public SelenideElement error = $x("/html/body/div/div/div[2]/div[11]");
-    public SelenideElement vehicleMake= $x("/html/body/div/div/div[2]/div[5]/div[1]/div/span/div[2]/dl[2]/dd");
-    public SelenideElement vehicleModel= $x("/html/body/div/div/div[2]/div[5]/div[1]/div/span/div[2]/dl[3]/dd");
-    public SelenideElement vehicleColour= $x("/html/body/div/div/div[2]/div[5]/div[1]/div/span/div[2]/dl[4]/dd");
-    public SelenideElement vehicleYear= $x("/html/body/div/div/div[2]/div[5]/div[1]/div/span/div[2]/dl[5]/dd");
+    public SelenideElement searchButton = $("#m > div.jsx-3972257182.m-w-1.d-w-1.p-w-1 > div > div > div > div > form > button");
+    public SelenideElement regEntry = $("#vrm-input");
+    public SelenideElement sale = $("#checkout-form > div.jsx-3499070155");
+    public SelenideElement vehicleMake= $("#m > div.jsx-79705764 > div:nth-child(5) > div.jsx-1843467667 > div > span > div.jsx-3499070155 > dl:nth-child(2) > dd");
+    public SelenideElement vehicleModel= $("#m > div.jsx-79705764 > div:nth-child(5) > div.jsx-1843467667 > div > span > div.jsx-3499070155 > dl:nth-child(3) > dd");
+    public SelenideElement vehicleColour= $("#m > div.jsx-79705764 > div:nth-child(5) > div.jsx-1843467667 > div > span > div.jsx-3499070155 > dl:nth-child(4) > dd");
+    public SelenideElement vehicleYear= $("#m > div.jsx-79705764 > div:nth-child(5) > div.jsx-1843467667 > div > span > div.jsx-3499070155 > dl:nth-child(5) > dd");
+    public SelenideElement vehicleMakeSale= $("#m > div.jsx-79705764 > div:nth-child(6) > div.jsx-1843467667 > div > span > div.jsx-3499070155 > dl:nth-child(2) > dd");
+    public SelenideElement vehicleModelSale= $("#m > div.jsx-79705764 > div:nth-child(6) > div.jsx-1843467667 > div > span > div.jsx-3499070155 > dl:nth-child(3) > dd");
+    public SelenideElement vehicleColourSale= $("#m > div.jsx-79705764 > div:nth-child(6) > div.jsx-1843467667 > div > span > div.jsx-3499070155 > dl:nth-child(4) > dd");
+    public SelenideElement vehicleYearSale= $("#m > div.jsx-79705764 > div:nth-child(6) > div.jsx-1843467667 > div > span > div.jsx-3499070155 > dl:nth-child(5) > dd");
 }
